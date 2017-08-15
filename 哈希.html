@@ -8,10 +8,11 @@
 		//this is fifth page
 		//this is third page
 		//add changes
-        var aa=12312312;
-        var cc=22222222222222;
-		var bb=1;
+        var aa=123;
+        var cc=4455;
+		var bb=12222222222222222;
 		var dd=12312312;
+		var ee=123;
 		window.onload = function(){
 			currentPageIndex = 0;
 			showPageAtIndex(currentPageIndex);
@@ -21,12 +22,12 @@
 		// onhashchange可以监控hash变化
 		window.onhashchange=function(){
 			var hash = window.location.hash;
-
+			var ee=123;
 			var id = parseInt(hash.substr(1));
-
+			var ee=123;
 			showPageAtIndex(id);
 		};
-
+		var ee=123;
 		function toNextPageWhenClick()
 		{
 			currentPageIndex++;
